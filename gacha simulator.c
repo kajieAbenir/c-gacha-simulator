@@ -26,7 +26,6 @@
 
 //  includes time() [check srand() implementation]
 #include <time.h>
-#include <stdbool.h>
 
 // includes sleep() and usleep()
 
@@ -40,8 +39,6 @@
 // prototypes area.
 
 void welcomeScreen();
-bool inputVerify(int pullChoice);
-bool checkIfExit(int pullChoice);
 void resultGenerator(int pullAmt);
 void checkTotalPulls(int fiveStar, int fourStar, int totalPulls);
 
